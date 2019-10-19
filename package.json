@@ -1,0 +1,23 @@
+{
+  "name": "photon",
+  "version": "0.0.1",
+  "description": "Core of Light personal assistant",
+  "main": "photon.js",
+  "scripts": {
+    "dev": "parcel watch src/photon.js --target node",
+    "build": "parcel build src/photon.js --target node --bundle-node-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramboxeu/photon.git"
+  },
+  "author": "Rambox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramboxeu/photon/issues"
+  },
+  "homepage": "https://github.com/ramboxeu/photon#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
